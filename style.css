@@ -317,5 +317,14 @@ html, body {
     .nav {
         padding: 0 20px;
     }
+      .modal-content {
+        width: 90%; /* Increase width for better readability */
+        padding: 20px; /* Reduce padding to fit content properly */
+    }
+
+    .modal-content img {
+        width: 100%; /* Ensure images are fully responsive */
+        border-radius: 8px;
+    }
 }
 
